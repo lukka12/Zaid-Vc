@@ -538,7 +538,7 @@ async def ytplay(_, message: Message):
         ]
     )
     requested_by = message.from_user.first_name
-    await generate_cover(requested_by, title, views, duration, thumbnail)
+    await generate_cover(title, thumbnail)
     file = await convert(youtube.download(url))
     chat_id = get_chat_id(message.chat)
     if chat_id in callsmusic.active_chats:
