@@ -482,7 +482,7 @@ async def ytplay(_, message: Message):
             f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add @GalaxinaVcAssistant manually</i>"
         )
         return
-    await lel.edit("🔎")
+    await lel.edit("`Beep Bop Processing...`")
     message.from_user.id
     message.from_user.first_name
 
