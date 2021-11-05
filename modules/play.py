@@ -471,15 +471,15 @@ async def ytplay(_, message: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>🔴 Flood Wait Error 🔴 \nUser @{ASSISTANT_NAME} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add assistant to your Group and try again</b>",
+                        f"<b>🔴 Flood Wait Error 🔴 \nUser @GalaxinaVcAssistant couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
+                        "\n\nOr manually add @GalaxinaVcAssistant to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add @{ASSISTANT_NAME} manually</i>"
+            f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add @GalaxinaVcAssistant manually</i>"
         )
         return
     await lel.edit("🔎")
@@ -533,7 +533,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton(
                     "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Sanki_BOTs"
                 ),
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Sanku_BOTs_Support"),
+                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Sanki_BOTs_Support"),
             ],
         ]
     )
@@ -627,8 +627,8 @@ async def jiosaavn(client: Client, message_: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add {ASSISTANT_NAME} to your Group and try again</b>",
+                        f"<b>🔴 Flood Wait Error 🔴 \nUser @GalaxinaVcAssistant couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
+                        "\n\nOr manually add @GalaxinaVcAssistant to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -675,9 +675,9 @@ async def jiosaavn(client: Client, message_: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Sanku_BOTs"
+                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Sanki_BOTs"
                 ),
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Sanku_BOTs_Support"),
+                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Sanki_BOTs_Support"),
             ],
         ]
     )
