@@ -1,7 +1,7 @@
 pyrogram
 tgcrypto
 python-arq
-pytgcalls==3.0.0.dev19
+pytgcalls==2.1.0
 python-dotenv
 tswift
 youtube-search-python
