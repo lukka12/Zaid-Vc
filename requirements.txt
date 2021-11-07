@@ -18,7 +18,7 @@ psutil
 wget
 motor
 dnspython
-yt_dlp
+yt-dlp
 httpx==0.13.3
 heroku3
 gitpython
