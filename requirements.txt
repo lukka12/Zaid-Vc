@@ -18,7 +18,7 @@ psutil
 wget
 motor
 dnspython
-youtube-dl
+youtube_dl
 httpx==0.13.3
 heroku3
 gitpython
